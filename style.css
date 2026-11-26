@@ -1,5 +1,16 @@
+:root{
+    --main-purple: #851D75;
+    --background-color: #fff5fb;
+    --window-inside: #ffffff;
+    --main-pink: #ff7ac0;
+    --button-color: #c2257a;
+    --main-lavender: #c8b6ff;
+    --purple-accent: #8b5cf6;
+    --text-color: #2d1b33;
+}
 h1{
     text-align: center;
+    color: var(--main-purple);
 }
 p{
     font-size: 18px;
@@ -9,4 +20,12 @@ img{
 }
 body{
     font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+a{
+    color: var(--button-color);
+}
+h2{
+    color: var(--purple-accent);
 }
